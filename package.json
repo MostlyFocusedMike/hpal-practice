@@ -40,6 +40,9 @@
     "knex": "0.15.x",
     "lab": "16.x.x",
     "sqlite3": "4.x.x",
+    "inert": "5.x.x",
+    "hapi-swagger": "9.x.x",
+    "vision": "5.x.x",
     "toys": "2.x.x"
   }
 }
