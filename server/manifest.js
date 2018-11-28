@@ -40,7 +40,11 @@ module.exports = new Confidence.Store({
                                 idleTimeoutMillis: Infinity // Handles knex v0.12/0.13 misconfiguration when using sqlite3 (tgriesser/knex#1701)
                             },
                             connection: {
-                                filename: ':memory:'
+                                // :memory: means that our DB will only exist while the server is running,
+                                // it is in-memory only, so it will be destroyed when the server shuts down,
+                                // this is fine for a toy app
+                                // filename: ':memory:'
+                                filename: './db/riddles.db'
                             }
                         }
                     },
