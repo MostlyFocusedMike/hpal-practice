@@ -34,15 +34,15 @@
     "eslint-plugin-hapi": "4.x.x",
     "glue": "5.x.x",
     "hapi": "17.x.x",
-    "hpal": "^1.3.0",
+    "hapi-swagger": "9.x.x",
     "hoek": "5.x.x",
+    "hpal": "^1.3.0",
     "hpal-debug": "1.x.x",
+    "inert": "5.x.x",
     "knex": "0.15.x",
     "lab": "16.x.x",
-    "sqlite3": "4.x.x",
-    "inert": "5.x.x",
-    "hapi-swagger": "9.x.x",
-    "vision": "5.x.x",
-    "toys": "2.x.x"
+    "sqlite3": "^4.0.6",
+    "toys": "2.x.x",
+    "vision": "5.x.x"
   }
 }
