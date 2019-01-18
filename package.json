@@ -11,7 +11,7 @@
   },
   "scripts": {
     "knex": "knex",
-    "start": "nodemon server",
+    "start": "npx nodemon server",
     "test": "lab -a code -I '__core-js_shared__' -L",
     "lint": "eslint ."
   },
@@ -19,6 +19,7 @@
     "boom": "7.x.x",
     "haute-couture": "3.x.x",
     "joi": "13.x.x",
+    "nodemon": "^1.18.9",
     "objection": "1.x.x",
     "schwifty": "4.x.x"
   },
@@ -27,11 +28,13 @@
   },
   "devDependencies": {
     "code": "5.x.x",
-    "confidence": "3.x.x",
+    "confidence": "^3.0.2",
     "dotenv": "6.x.x",
-    "eslint": "5.x.x",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-hapi": "12.x.x",
     "eslint-plugin-hapi": "4.x.x",
+    "eslint-plugin-import": "^2.14.0",
     "glue": "5.x.x",
     "hapi": "17.x.x",
     "hapi-swagger": "9.x.x",
